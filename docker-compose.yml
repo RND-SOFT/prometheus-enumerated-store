@@ -1,0 +1,19 @@
+version: "2.3"
+
+services:
+  builder:
+    build:
+      context: .
+      args:
+        BUILDKIT_INLINE_CACHE: 1
+        BASE_IMG: ${BASE_IMG-library/ruby}
+        BASE_TAG: ${BASE_TAG-3-alpine}
+      cache_from:
+        - ${BASE_IMG-library/ruby}:latest
+        - ${BASE_IMG-library/ruby}:${COMMIT_SHA-latest}
+        - ${BASE_IMG-library/ruby}:${BRANCH_TAG-latest}
+        - ${BASE_IMG-library/ruby}:${TAG-builder}
+    image: ${IMAGE-rnds/prometheus_enumerated_store}:${TAG-builder}
+    working_dir: /home/app
+
+
