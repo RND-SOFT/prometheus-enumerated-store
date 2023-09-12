@@ -130,7 +130,7 @@ badges:
     BRANCH_LOCK: ci/${CI_PROJECT_NAME}/${CI_COMMIT_REF_SLUG}
     ENV_LOCK: ci/${CI_PROJECT_NAME}/${CI_ENVIRONMENT_SLUG}
     BADGES_URL: https://lysander.rnds.pro/api/v1/badges/enumerated
-    URL: https://github.com/RND-SOFT/prometheus_enumerated_store
+    URL: https://github.com/RND-SOFT/prometheus-enumerated-store
   cache:
     paths:
       - vendor/bundle

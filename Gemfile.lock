@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    prometheus_enumerated_store (0.0.1)
+    prometheus_enumerated_store (1.0.0)
       prometheus-client
 
 GEM
