@@ -17,10 +17,11 @@ RUN set -ex \
   && apk add --no-cache git tzdata build-base  docker docker-compose
 
 ADD Gemfile Gemfile.lock *.gemspec /home/app/
-ADD lib/prometheus/enumerated_store/version.rb /home/app/lib/prometheus/enumerated_store
+ADD lib/prometheus/enumerated_store/version.rb /home/app/lib/prometheus/enumerated_store/
 
 
 RUN set -ex \
+  && find . \
   && gem install bundler && gem update bundler \
   && bundle install --jobs=3 \
   && rm -rf /tmp/* /var/tmp/* /usr/src/ruby /root/.gem /usr/local/bundle/cache

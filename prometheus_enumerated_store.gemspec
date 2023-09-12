@@ -11,7 +11,8 @@ Gem::Specification.new 'prometheus_enumerated_store' do |spec|
   spec.homepage      = 'https://github.com/RnD-Soft/prometheus_enumerated_store'
   spec.license       = 'MIT'
 
-  spec.files         = %w[lib/prometheus_enumerated_store.rb
+  spec.files         = %w[lib/prometheus_enumerated_store.rb lib/prometheus-enumerated-store.rb
+                          lib/prometheus/enumerated_store.rb lib/prometheus/enumerated-store.rb
                           lib/prometheus/enumerated_store/version.rb
                           lib/prometheus/enumerated_store/store.rb
                           lib/prometheus/enumerated_store/pid_enumerator.rb
