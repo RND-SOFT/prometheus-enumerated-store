@@ -10,7 +10,7 @@
 [![coverage](https://lysander.rnds.pro/api/v1/badges/enumerated_coverage.svg)](https://lysander.rnds.pro/api/v1/badges/enumerated_coverage.html)
 [![quality](https://lysander.rnds.pro/api/v1/badges/enumerated_quality.svg)](https://lysander.rnds.pro/api/v1/badges/enumerated_quality.html)
 [![outdated](https://lysander.rnds.pro/api/v1/badges/enumerated_outdated.svg)](https://lysander.rnds.pro/api/v1/badges/enumerated_outdated.html)
-[![vulnerable](https://lysander.rnds.pro/api/v1/badges/enumerated_vulnerable.svg)](https://lysander.rnds.pro/api/v1/badges/enumerated_vulnerable.html)
+[![vulnerable](https://lysander.rnds.pro/api/v1/badges/enumerated_vuln.svg)](https://lysander.rnds.pro/api/v1/badges/enumerated_vuln.html)
 
 </div>
 
