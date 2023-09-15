@@ -32,7 +32,7 @@ It fixes issue with [too many files for long running applications](https://githu
 
 ## Возможности / Features
 
-Библиоетка использует последовательное присвоение номеров файлам метри вместо использования PID / It uses sequential numbering for metric filenames instead of PID-stamps.
+Библиотека использует последовательное присвоение номеров файлам метрик вместо использования PID / It uses sequential numbering for metric filenames instead of PID-stamps.
 
 
 ## Начало работы / Getting started
@@ -59,7 +59,7 @@ bundle install # для установки гема / gem installation
 ```
 ## Использование / Usage
 
-Для использования необходимо в каком-нибудь файле `config/initializers/` настройить `Data Store` для библиотеки `prometheus-client`:
+Для использования необходимо в каком-нибудь файле `config/initializers/` настроить `Data Store` для библиотеки `prometheus-client`:
 
 ---
 
